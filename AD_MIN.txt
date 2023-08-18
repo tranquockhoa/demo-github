@@ -4,26 +4,31 @@ Quản lí sản phẩm:
 		- Thêm Brand: người dùng được phép nhập tên Brand sẽ được bán hoặc có thể bán trong tương lai. Nếu Brand đã được có thì hiển thị đã tồn tại.
 		- Thêm sản phẩm: hiển thị ra 1 list các thuộc tính bao gồm: ProductName, Quantity,Size,Category,Type,Color,Price,Status. Người dùng nhập dữ liệu của các thuộc tính từ bàn phím. Trong list thêm phần Brand được chọn từ những brand có sẵn được nhập từ phần thêm brand.
 	- Cập nhật sản phẩm: 
-			khi người dùng sử dụng chức năng thêm sản phẩm nếu sản phẩm cùng thuộc tính(ProductName,Type,Color,Size, Category) với sản phẩm sẵn có thì sẽ hiển thị các thuộc tính bạn vừa nhập đã tồn tại bạn có muốn cập nhật tiếp vào sản phẩm đó hay không.Nếu chọn có  tự cập nhật lại Quantity, Price, Discount, của sản phẩm sau khác với giá của sản phẩm có sẵn update theo giá của sản phẩm mới. Nếu chọn không thì đây là 2 sản phẩm khác nhau 
+			khi người dùng sử dụng chức năng thêm sản phẩm nếu sản phẩm cùng thuộc tính(ProductName,Type,Color,Size, Category)
+			với sản phẩm sẵn có thì sẽ hiển thị các thuộc tính bạn vừa nhập đã tồn tại bạn có muốn cập nhật tiếp vào sản phẩm 
+			đó hay không.Nếu chọn có  tự cập nhật lại Quantity, Price, Discount, của sản phẩm sau khác với giá của sản phẩm có 
+			sẵn update theo giá của sản phẩm mới. Nếu chọn không thì đây là 2 sản phẩm khác nhau 
 - Xoá sản phẩm:
-	người dùng chọn ProductName,Type,Color,Size, Category thì sẽ ngưng hiển thị sản phẩm này  trên web bán hàng. cập nhật lại status của sản phẩm là nhưng bán
+	người dùng chọn ProductName,Type,Color,Size, Category thì sẽ ngưng hiển thị sản phẩm này  trên web bán hàng. 
+	cập nhật lại status của sản phẩm là nhưng bán
 - Xem thông tin sản phẩm:
 	người  dùng có thể dùng theo kiểu lọc. Hiển thị các thuộc tính
 	ProductName, Quantity,Size,Category,Type,Color,Price,Status	
-	để hiển thị ra thông tin các về số lượng, giá ngày nhập, số lượng đã 		bán.
+	để hiển thị ra thông tin các về số lượng, giá ngày nhập, số lượng đã bán.
 
 
 Quản lí sale: 
-Người dùng chọn ProductName,Quantity,Size,Category,Color,Price, Brand sau đó sẽ được nhập discount rồi tự cập nhật lại giá theo discount. Người dùng có thể cài đặt thời gian sale bắt đầu theo khoảng bắt đầu từ thời gian A kết thúc tại thời điểm B.
+	Người dùng chọn ProductName,Quantity,Size,Category,Color,Price, Brand sau đó sẽ được nhập discount rồi 
+	tự cập nhật lại giá theo discount. Người dùng có thể cài đặt thời gian sale bắt đầu theo khoảng bắt đầu từ thời gian A kết thúc tại thời điểm B.
 
 Statistic: 
 	Quản lí đơn hàng:
 		- Tạo đơn hàng:
-Staff nhận thông tin đặt hàng của Customer sau đó vào mục tạo đơn hàng. Staff nhập thông tin   Brand,ProductName, Quantity,Size,Category,Color sau đó  hiển thị ra số lượng còn  để người dùng nhập số lượng tiếp theo là điền thông tin địa chỉ 
-số đt liên lạc
+		Staff nhận thông tin đặt hàng của Customer sau đó vào mục tạo đơn hàng. Staff nhập thông tin  Brand,ProductName, Quantity,Size,Category,Color sau đó  hiển thị ra số lượng còn  để người dùng nhập số lượng tiếp theo là điền thông tin địa chỉ 
+		số đt liên lạc
 		
 		- Xem thông tin chi tiết của đơn hàng:
-			Người dùng có 1 phần tìm kiếm để nhập mã của đơn hàng 			sau đó in ra thông tin chỉ tiết của đơn hàng đó bao gồm ngày 			trạng thái đơn hàng, giá, mua bán mặt hàng gì.
+			Người dùng có 1 phần tìm kiếm để nhập mã của đơn hàng sau đó in ra thông tin chỉ tiết của đơn hàng đó bao gồm ngày trạng thái đơn hàng, giá, mua bán mặt hàng gì.
 		- Xem đơn hàng:
 			- xem tất cả các đơn hàng theo tuỳ chọn ngày, tháng, năm, 
 			- xem đơn hàng thành công hiển thị tất cả các đơn hàng thành công theo tuỳ chọn của admin
